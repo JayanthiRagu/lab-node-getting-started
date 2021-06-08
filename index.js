@@ -42,8 +42,6 @@ class SortedList {
     }
     else{
     const sum=this.items.reduce((total,value)=>{
-      console.log(total);
-      console.log(value);
       return total+value
       },0)
       return (sum/this.items.length);
